@@ -1,7 +1,9 @@
 from flask import Flask,Blueprint, request, render_template,jsonify
 
 from orm import db,User
+
 user = Blueprint("user", __name__)
+
 def create_app():
     app = Flask(__name__)
     # 初始化App配置专门针对 SQLAlchemy 进行配置

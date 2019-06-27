@@ -2,7 +2,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column,Integer,String,create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.orm import scoped_session
-class Flask_sqlalchemt_one():
+class Flask_sqlalchemt_one(object):
     Integer, String =Integer,String
     def __init__(self,app=None):
         self.app = app
@@ -40,7 +40,9 @@ class Flask_sqlalchemt_one():
                                           pool_timeout=poll_timeout,
                                           )
         self.session = self.make_session()
+
         self.base.query = self.session.query
+
         @app.teardown_appcontext
         def func(cc):
             '''

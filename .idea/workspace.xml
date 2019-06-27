@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec9b481a-00c1-4f20-8867-83897c50c52c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ec9b481a-00c1-4f20-8867-83897c50c52c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +23,7 @@
     <session id="-1725705949">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="2" />
@@ -170,8 +167,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="454" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="184" />
+    <option name="y" value="6" />
     <option name="width" value="863" />
     <option name="height" value="775" />
   </component>
@@ -324,7 +322,7 @@
     </configuration>
     <list>
       <item itemvalue="Flask server.flask_Sqlalchemy" />
-      <item itemvalue="Flask server.Flask (web2.py:create_app)" />
+      <item itemvalue="Flask server.Flask" />
       <item itemvalue="Flask server.Flask (web.py)" />
       <item itemvalue="Flask server.Flask (aaaaa.py:create_app)" />
       <item itemvalue="Python.aaaaa" />
@@ -336,7 +334,6 @@
         <item itemvalue="Python.web" />
         <item itemvalue="Python.aaaaa" />
         <item itemvalue="Flask server.Flask (aaaaa.py:create_app)" />
-        <item itemvalue="Flask server.Flask (web2.py:create_app)" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +351,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="454" y="0" width="863" height="775" extended-state="0" />
+    <frame x="184" y="6" width="863" height="775" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25280198" />
@@ -362,7 +359,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32761312" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32761312" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
